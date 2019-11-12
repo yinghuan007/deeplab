@@ -12,5 +12,5 @@ python train.py \
 --train_batch_size=4 \
 --dataset="camvid" \
 --tf_initial_checkpoint='/Users/huanying/bai/models-master/research/deeplab/deeplabv3_cityscapes_train/model.ckpt' \
---train_logdir='/Users/huanying/bai/dataset/CamVid/exp/camvid_train/train' \
---dataset_dir='/Users/huanying/bai/dataset/CamVid/tfrecord'
+--train_logdir='/Users/huanying/bai/dataset/CamVid/exp/camvid_train/dove_train' \
+--dataset_dir='/Users/huanying/bai/dataset/CamVid/dove_tfrecord'
